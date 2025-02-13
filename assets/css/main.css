@@ -2584,7 +2584,7 @@ div {
   justify-content: space-between;
   gap: 20px;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 .header .navbar-logo img {
   max-width: 160px;
