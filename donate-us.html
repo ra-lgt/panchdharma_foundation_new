@@ -336,12 +336,23 @@
 
 
                         </div>
+                        <div class="donate-container">
 
-                        <div class="cta">
-                          <a href="https://portal.getepay.in:8443/getepayPortal/paymentForm/PFFORM"
-                            aria-label="donate us" title="donate us" class="btn--secondary"
-                            data-text="Donate Now"><span>Donate Now</span></a>
+                          <div class="donate-left">
+                            <a href="https://portal.getepay.in:8443/getepayPortal/paymentForm/PFFORM"
+                              class="donate-btn">
+                              Donate Now
+                            </a>
+                          </div>
+                          <div>
+                            OR
+                          </div>
+                          <div class="donate-right">
+                            <img src="assets/images/panchdharmathekmasbi_page.jpg" alt="QR Code" class="qr-card" />
+                          </div>
+
                         </div>
+
                       </div>
                     </div>
                     <hr />
@@ -731,5 +742,44 @@
   <!-- main js -->
   <script src="assets/js/custom.js"></script>
 </body>
+<style>
+  /* Main Container */
+  .donate-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  /* Donate Button */
+  .donate-btn {
+    background: #d4a15a;
+    padding: 14px 36px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+  }
+
+  .donate-btn:hover {
+    background: #c28f48;
+    transform: translateY(-3px);
+  }
+
+  /* QR Card Image */
+  .qr-card {
+    width: 150px;
+    /* adjust size */
+    border-radius: 16px;
+    border: 3px solid #0078d7;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+</style>
 
 </html>
